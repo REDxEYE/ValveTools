@@ -310,6 +310,7 @@ class QCData:
     def write(self, filepath=None):
         """
         writes all files back to disk
+        :type filepath: str
         """
         if filepath is None:
             filepath = self.filepath
@@ -1208,7 +1209,7 @@ class Weightlist(Command):
 
         return as_str
 
-
+#Дискорд сдох
 # end
 if __name__ == '__main__':
     qc = QCData(r"E:\SOURCE_ENGINE_MODEL_SOURCES\Mathew_Kelly\mathew_kelly.qc")
